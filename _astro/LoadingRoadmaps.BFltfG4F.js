@@ -1,0 +1,1 @@
+import{j as r}from"./jsx-runtime.D_zvdyIk.js";function l(){return r.jsx("ul",{className:"grid grid-cols-1 gap-2 sm:grid-cols-2 lg:grid-cols-3",children:new Array(21).fill(0).map((a,s)=>r.jsx("li",{className:"h-[175px] animate-pulse rounded-md border bg-gray-200"},s))})}export{l as L};

@@ -1,0 +1,5 @@
+<!DOCTYPE html><div data-github-url="https://github.com/kamranahmedse/developer-roadmap/tree/master/src/data/best-practices/aws/content/s3-hive-results.md"></div> <h1 id="hive-results">Hive Results</h1>
+<blockquote>
+<p>Specify a directory on S3 for Hive results.</p>
+</blockquote>
+<p>If you use Hive to output results to S3, you must specify a directory in the bucket, not the root of the bucket, otherwise you’ll get a rather unhelpful NullPointerException with no real explanation as to why.</p>

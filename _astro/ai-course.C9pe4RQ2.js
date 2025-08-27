@@ -1,0 +1,1 @@
+import{h as t}from"./query-http.YhxTqNi8.js";import{i as e}from"./jwt.1xGNZsvU.js";import{q as r}from"./query-client.BXTfwa3d.js";function a(){return r({queryKey:["ai-course-limit"],queryFn:()=>t("/v1-get-ai-course-limit"),enabled:!!e(),retryOnMount:!1,refetchOnMount:!1})}export{a};

@@ -1,0 +1,20 @@
+<!DOCTYPE html><div data-github-url="https://github.com/kamranahmedse/developer-roadmap/tree/master/src/data/best-practices/code-review/content/failing-text-bug.md"></div> <h1 id="failing-test-for-a-bug-fix">Failing Test for a Bug Fix</h1>
+<p>A failing test is a valuable addition to the development process, as it ensures that developers can identify the root cause of the issue and verify that their changes effectively resolve the problem. This practice not only helps in improving code quality but also aids in avoiding regression in the future. To ensure you follow this best practice, below are some tips on how you can write a failing test for a bug fix:</p>
+<ul>
+<li>
+<p>Understand the bug: Analyze the issue report and, if possible, reproduce the bug locally to gain a clear understanding of the problem at hand.</p>
+</li>
+<li>
+<p>Write a test case: Create a test case that simulates the conditions under which the bug occurs, and make sure the test fails initially due to the presence of the bug.</p>
+</li>
+<li>
+<p>Implement the bug fix: Write the necessary code changes to resolve the bug while keeping the test case in mind.</p>
+</li>
+<li>
+<p>Verify the fix: Once the fix is implemented, run the test case again to ensure that the test case now passes, validating that the bug has been effectively resolved.</p>
+</li>
+<li>
+<p>Run other tests: Execute any additional test cases and perform a thorough code review to ensure that the bug fix does not create new issues or regressions in other parts of the codebase.</p>
+</li>
+</ul>
+<p>By adhering to this practice, you can confidently make changes to your codebase with the assurance that your bug fixes are effective, and your code remains reliable and robust.</p>

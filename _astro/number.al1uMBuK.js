@@ -1,0 +1,1 @@
+const n=Intl.NumberFormat("en-US",{useGrouping:!0});function u(e){return n.format(e)}function a(e){return e%1===0?e.toString():e.toFixed(1)}function f(e,r){if(e<=0||r<=0)return 0;if(e>=r)return 100;const t=e/r*100;return Math.min(Math.round(t),100)}export{a as d,u as f,f as g};

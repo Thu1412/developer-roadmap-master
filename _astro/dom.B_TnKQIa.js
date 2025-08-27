@@ -1,0 +1,1 @@
+function i(e,n){if(e.replaceChildren)return e.replaceChildren(n);e.innerHTML="",e.append(n)}function l(e){document&&"body"in document&&(e?document.body.classList.add("overflow-hidden"):document.body.classList.remove("overflow-hidden"))}export{l,i as r};
