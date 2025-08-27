@@ -10,7 +10,7 @@ import react from '@astrojs/react';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'http://localhost:8081/deprecated-version-master/',
+  site: 'https://roadmap.sh/',
   base: '/deprecated-version-master/',
   redirects: {
     '/devops/devops-engineer': {
