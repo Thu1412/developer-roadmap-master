@@ -69,9 +69,12 @@ export default defineConfig({
     react(),
   ],
   vite: {
-    plugins: [tailwindcss()],
-    ssr: {
-      noExternal: [/^@roadmapsh\/editor.*$/],
-    },
+  plugins: [tailwindcss()],
+  server: {
+    allowedHosts: ['roadmap.sh', 'port3k.kamranahmed.info'],
   },
+  ssr: {
+    noExternal: [/^@roadmapsh\/editor.*$/], // ← thêm dòng này
+  },
+},
 });
